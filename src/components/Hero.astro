@@ -1,0 +1,23 @@
+---
+import { business } from '../data/business';
+const base = `https://wa.me/${business.whatsapp}?text=`;
+const waCasal = base + 'Ol%C3%A1%20Camila!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20terapia%20de%20casal.';
+const waPresencial = base + 'Ol%C3%A1%20Camila!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20presencial%20em%20Piracicaba.';
+const waOnline = base + 'Ol%C3%A1%20Camila!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20online.';
+---
+<section class="hero" id="topo">
+  <div class="hero__inner">
+    <div class="hero__content">
+      <p class="eyebrow">Terapia de Casal e Individual · Piracicaba &amp; Online</p>
+      <h1>Pronto para uma vida <em>com mais tranquilidade?</em></h1>
+      <p class="hero__sub hero__sub--desk">Terapia de casal e individual para reencontrar a conexão, a comunicação e a confiança na relação. Atendimento particular e com agenda limitada, <strong style="color:#2F6E51">presencial em Piracicaba ou online</strong>.</p>
+      <p class="hero__sub hero__sub--mob">Terapia de casal e individual para relacionamentos. <strong style="color:#2F6E51">Presencial em Piracicaba ou online</strong>.</p>
+      <div class="cta-row">
+        <a class="btn" href={waCasal} target="_blank" rel="noopener">Agendar terapia de casal <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--ghost" href={waPresencial} target="_blank" rel="noopener">Sessão presencial em Piracicaba</a>
+        <a class="btn btn--ghost" href={waOnline} target="_blank" rel="noopener">Sessão online</a>
+      </div>
+      <div class="trust"><span>Terapia de casal e individual</span><span class="dot"></span><span>Presencial em Piracicaba &amp; Online</span></div>
+    </div>
+  </div>
+</section>

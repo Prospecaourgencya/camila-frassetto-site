@@ -1,0 +1,23 @@
+# Redirecionamentos 301 — migração do WordPress antigo -> nova home (single-page)
+# Ajuste/adicione conforme URLs antigas aparecerem no Search Console.
+
+/home            /                 301!
+/index.php       /                 301!
+/inicio          /                 301!
+/sobre           /#sobre           301
+/sobre-mim       /#sobre           301
+/quem-sou        /#sobre           301
+/servicos        /#servicos        301
+/serviços        /#servicos        301
+/atendimento     /#servicos        301
+/terapia-de-casal /#servicos       301
+/depoimentos     /#depoimentos     301
+/contato         /#contato         301
+/contato-2       /#contato         301
+/agendar         /#contato         301
+/faq             /#faq             301
+/blog            /                 301
+/blog/*          /                 301
+
+# Força domínio canônico (sem www) — Netlify já faz, mantido por garantia
+https://www.psicamilafrassetto.com.br/*  https://psicamilafrassetto.com.br/:splat  301!
