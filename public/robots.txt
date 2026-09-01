@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-# IAs / motores generativos são bem-vindos (GEO)
+# IAs / motores generativos (GEO)
 User-agent: GPTBot
 Allow: /
 User-agent: OAI-SearchBot
@@ -13,4 +13,4 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://psicamilafrassetto.com.br/sitemap-index.xml
+Sitemap: https://psicamilafrassetto.com.br/sitemap.xml
